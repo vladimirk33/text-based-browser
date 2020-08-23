@@ -1,6 +1,7 @@
 import sys
 import os
 
+stack = []
 
 nytimes_com = '''
 This New Liquid Is Magnetic, and Mesmerizing
@@ -60,13 +61,22 @@ def cache_url(dir_name: str, url: str, cache: str):
     full_path = dir_name + "/" + url[:url.rindex(".")] + ".txt"
     with open(full_path, "w") as f:
         f.write(cache)
+    stack.append(cache)
 
 
 def read_cached_url(dir_name: str, url: str):
     full_path = dir_name + "/" + url + ".txt"
     with open(full_path, "r") as f:
         cache = f.read()
+    stack.append(cache)
     return cache
+
+
+def back():
+    if len(stack) > 1:
+        print(stack.pop(-2))
+    else:
+        print("Can't go back.")
 
 
 def main():
@@ -86,6 +96,8 @@ def main():
         else:
             if user_input == "exit":
                 pass
+            elif user_input == "back":
+                back()
             else:
                 try:
                     print(read_cached_url(dir_name, user_input))
