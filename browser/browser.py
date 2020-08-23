@@ -1,3 +1,6 @@
+import sys
+import os
+
 
 nytimes_com = '''
 This New Liquid Is Magnetic, and Mesmerizing
@@ -35,16 +38,59 @@ Twitter and Square Chief Executive Officer Jack Dorsey
 '''
 
 
-# write your code here
+def is_valid_url(url):
+    if "." in url:
+        return True
+    return False
+
+
+def create_dir():
+    try:
+        dir_name = sys.argv[1]
+    except IndexError:
+        dir_name = "temp"
+    try:
+        os.mkdir(dir_name)
+    except FileExistsError:
+        pass
+    return dir_name
+
+
+def cache_url(dir_name: str, url: str, cache: str):
+    full_path = dir_name + "/" + url[:url.rindex(".")] + ".txt"
+    with open(full_path, "w") as f:
+        f.write(cache)
+
+
+def read_cached_url(dir_name: str, url: str):
+    full_path = dir_name + "/" + url + ".txt"
+    with open(full_path, "r") as f:
+        cache = f.read()
+    return cache
+
+
 def main():
-    while True:
-        url = input()
-        if url == "bloomberg.com":
-            print(bloomberg_com)
-        elif url == "nytimes.com":
-            print(nytimes_com)
-        elif url == "exit":
-            exit(1)
+    dir_name = create_dir()
+    user_input = ""
+    while user_input != "exit":
+        user_input = input("> ")
+        if is_valid_url(user_input):
+            if user_input == "nytimes.com":
+                cache_url(dir_name, user_input, nytimes_com)
+                print(nytimes_com)
+            elif user_input == "bloomberg.com":
+                cache_url(dir_name, user_input, bloomberg_com)
+                print(bloomberg_com)
+            else:
+                print("Error: Incorrect URL")
+        else:
+            if user_input == "exit":
+                pass
+            else:
+                try:
+                    print(read_cached_url(dir_name, user_input))
+                except FileNotFoundError:
+                    print("Error: Incorrect URL")
 
 
 if __name__ == "__main__":
