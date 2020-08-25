@@ -1,0 +1,212 @@
+[34mSkip to content
+[34m
+▼ Close
+                
+[34mPython
+[34mPSF
+[34mDocs
+[34mPyPI
+[34mJobs
+[34mCommunity
+[34m
+▲ The Python Network
+                
+[34m
+[34mDonate
+[34m≡ Menu
+[34mA A
+[34mSmaller
+[34mLarger
+[34mReset
+[34mSocialize
+[34mFacebook
+[34mTwitter
+[34mChat on IRC
+[34mAbout
+[34mApplications
+[34mQuotes
+[34mGetting Started
+[34mHelp
+[34mPython Brochure
+[34mDownloads
+[34mAll releases
+[34mSource code
+[34mWindows
+[34mMac OS X
+[34mOther Platforms
+[34mLicense
+[34mAlternative Implementations
+[34mDocumentation
+[34mDocs
+[34mAudio/Visual Talks
+[34mBeginner's Guide
+[34mDeveloper's Guide
+[34mFAQ
+[34mNon-English Docs
+[34mPEP Index
+[34mPython Books
+[34mPython Essays
+[34mCommunity
+[34mCommunity Survey
+[34mDiversity
+[34mMailing Lists
+[34mIRC
+[34mForums
+[34mPSF Annual Impact Report
+[34mPython Conferences
+[34mSpecial Interest Groups
+[34mPython Logo
+[34mPython Wiki
+[34mMerchandise
+[34mCommunity Awards
+[34mCode of Conduct
+[34mSuccess Stories
+[34mArts
+[34mBusiness
+[34mEducation
+[34mEngineering
+[34mGovernment
+[34mScientific
+[34mSoftware Development
+[34mNews
+[34mPython News
+[34mPSF Newsletter
+[34mCommunity News
+[34mPSF News
+[34mPyCon News
+[34mEvents
+[34mPython Events
+[34mUser Group Events
+[34mPython Events Archive
+[34mUser Group Events Archive
+[34mSubmit an Event
+[34m>_
+                        Launch Interactive Shell
+
+[34mMore about defining functions in Python 3
+[34mMore about lists in Python 3
+[34mMore about simple math functions in Python 3
+[34mWhet your appetite
+[34mMore control flow tools in Python 3
+[34mLearn More
+[34mStart with our Beginner’s Guide
+[34mPython 3.8.5
+[34mdocs.python.org
+[34mjobs.python.org
+[34mMore
+[34mPython 3.5.10rc1 is now available
+[34mPython 3.7.9 and 3.6.12 security updates now available
+[34mPython 3.9.0rc1 is now available
+[34mUpgrade to pip 20.2, plus, changes coming in 20.3
+[34mAbigail Dogbe Awarded the PSF Community Service Award for Q1 2020
+[34mMore
+[34mPyCon JP 2020
+[34mPyCon TW 2020
+[34mPyCon SK 2020
+[34mDjangoCon Europe 2020
+[34mPyCon APAC 2020
+[34mMore
+[34mPython powers major aspects of Abridge’s ML lifecycle, including data annotation,  research and experimentation, and ML model deployment to production.
+[34mAbridging clinical conversations using Python
+[34mMore
+[34mDjango
+[34mPyramid
+[34mBottle
+[34mTornado
+[34mFlask
+[34mweb2py
+[34mtkInter
+[34mPyGObject
+[34mPyQt
+[34mPySide
+[34mKivy
+[34mwxPython
+[34mSciPy
+[34mPandas
+[34mIPython
+[34mBuildbot
+[34mTrac
+[34mRoundup
+[34mAnsible
+[34mSalt
+[34mOpenStack
+[34mPython Enhancement Proposals (PEPs)
+[34m RSS
+[34mPython Software Foundation
+[34mLearn more
+[34mBecome a Member
+[34mDonate to the PSF
+[34m▲ Back to Top
+[34mAbout
+[34mApplications
+[34mQuotes
+[34mGetting Started
+[34mHelp
+[34mPython Brochure
+[34mDownloads
+[34mAll releases
+[34mSource code
+[34mWindows
+[34mMac OS X
+[34mOther Platforms
+[34mLicense
+[34mAlternative Implementations
+[34mDocumentation
+[34mDocs
+[34mAudio/Visual Talks
+[34mBeginner's Guide
+[34mDeveloper's Guide
+[34mFAQ
+[34mNon-English Docs
+[34mPEP Index
+[34mPython Books
+[34mPython Essays
+[34mCommunity
+[34mCommunity Survey
+[34mDiversity
+[34mMailing Lists
+[34mIRC
+[34mForums
+[34mPSF Annual Impact Report
+[34mPython Conferences
+[34mSpecial Interest Groups
+[34mPython Logo
+[34mPython Wiki
+[34mMerchandise
+[34mCommunity Awards
+[34mCode of Conduct
+[34mSuccess Stories
+[34mArts
+[34mBusiness
+[34mEducation
+[34mEngineering
+[34mGovernment
+[34mScientific
+[34mSoftware Development
+[34mNews
+[34mPython News
+[34mPSF Newsletter
+[34mCommunity News
+[34mPSF News
+[34mPyCon News
+[34mEvents
+[34mPython Events
+[34mUser Group Events
+[34mPython Events Archive
+[34mUser Group Events Archive
+[34mSubmit an Event
+[34mContributing
+[34mDeveloper's Guide
+[34mIssue Tracker
+[34mpython-dev list
+[34mCore Mentorship
+[34mReport a Security Issue
+[34m▲ Back to Top
+[34mHelp & General Contact
+[34mDiversity Initiatives
+[34mSubmit Website Bug
+[34mStatus 
+[34mPython Software Foundation
+[34mLegal Statements
+[34mPrivacy Policy
+[34mPowered by Heroku
